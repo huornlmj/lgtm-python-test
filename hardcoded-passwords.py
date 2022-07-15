@@ -30,8 +30,8 @@ def noMatchObject():
     obj = SomeClass()
     # Possible hardcoded password: 'this cool password'
     # Severity: Low   Confidence: Medium
-    if obj.password == "this cool password":
-        print(obj.password)
+##    if obj.password == "this cool password":
+##        print(obj.password)
 
 # Possible hardcoded password: 'blerg'
 # Severity: Low   Confidence: Medium
